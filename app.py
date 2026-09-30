@@ -12,7 +12,7 @@ st.set_page_config(page_title="Auto Input Multi-Live Shopee", page_icon="📸", 
 st.title("📸 Auto Input Report Shopee Live ke Master")
 
 # 2. Setup API Key Gemini
-GEMINI_API_KEY = st.secrets["AQ.Ab8RN6JSJ3h7fmSRI26LDMe0pcNtFJwpxOzejV_3tFCEqUAeaA"] 
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"] 
 client_gemini = genai.Client(api_key=GEMINI_API_KEY)
 
 # 3. Form Input Manual Umum
