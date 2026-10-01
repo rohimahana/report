@@ -165,8 +165,8 @@ if uploaded_files:
                     # Terkoneksi ke file yang BARU menggunakan ID URL nya langsung biar 100% akurat
                     sheet = client_gs.open_by_key("19lxhkIIGunCFudopF0hy3eZM4ZbXd5mredD9UhPG1X8")
                     
-                    # Membuka tab "LIVESTREAM SCHEDULE - NEW"
-                    worksheet = sheet.worksheet("LIVESTREAM SCHEDULE - NEW")
+                    # Membuka tab "LIVESTREAM SCHEDULE - OCTOBER"
+                    worksheet = sheet.worksheet("LIVESTREAM SCHEDULE - OCTOBER")
                     
                     all_updates = []
                     
