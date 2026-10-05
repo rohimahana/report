@@ -71,8 +71,8 @@ if uploaded_files:
 
                 Aturan Ketat:
                 - Peak_Viewers: ambil dari bagian 'Penonton Terbanyak'
-                - Views: HANYA ambil dari angka di bagian 'Penonton' (Hati-hati, JANGAN tertukar dengan 'Ditonton')
-                - Unique_Viewers: HANYA ambil dari angka di bagian 'Penonton Aktif' (Hati-hati, JANGAN tertukar dengan 'Penonton')
+                - Views: HANYA ambil dari angka di bagian 'Ditonton'
+                - Unique_Viewers: HANYA ambil dari angka di bagian 'Penonton' (JANGAN tertukar dengan 'Penonton Aktif' atau 'Ditonton')
                 - Likes: ambil dari bagian 'Suka'
                 - Shares: ambil dari bagian 'Dibagikan'
                 - Comments: ambil dari bagian 'Komentar'
