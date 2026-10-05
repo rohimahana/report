@@ -148,6 +148,8 @@ if uploaded_files:
                 "Sales": item.get("Sales", 0),
                 "Order": item.get("Order", 0),
                 "Peak Viewers": item.get("Peak_Viewers", 0),
+                "Views": item.get("Views", 0),
+                "Unique Viewers": item.get("Unique_Viewers", 0),
                 "Link": list_link_dashboard[i]
             })
             
